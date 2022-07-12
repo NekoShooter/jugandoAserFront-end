@@ -1,0 +1,82 @@
+:root{
+    --heightBarraNav:60px;}
+
+.contenedor--barraDeNavegacion{
+    background-color: transparent;
+    height: var(--heightBarraNav);}
+
+.barraDeNavegacion--menu{
+    visibility: collapse}
+
+.barraDeNavegacion--todo{
+    flex-grow: 1;
+    visibility: hidden;}
+
+.barraDeNavegacion--Gmail,.barraDeNavegacion--googleApps{
+    width: auto;
+    visibility: visible;}
+
+.barraDeNavegacion--imagenes{
+    flex-grow: 0;}
+
+.contenedor--googleApps{
+    width: 35px;
+    height: 35px;
+    margin-left: var(--paddingInit);
+    margin-right: var(--paddingInit);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+    
+.contenedor--googleApps .googleApps{
+    translate: 0 1px;}
+
+.barraDeNavegacion--enlace:hover{
+    color: var(--colorTextoNav);
+    text-decoration: underline;}
+
+.barraDeNavegacion--enlace__accederACuenta{
+    padding: 9px 23px;
+    margin-right: var(--paddingX2);}
+
+
+
+.seccionGoogle--contenedor__imagen{
+    height: calc(45vh - 184px);
+    min-height: 92px;}
+
+.seccionBuscador--contenedor__barraBuscador:hover{
+    box-shadow: 0 1px 6px var(--colorContornoBuscador);}
+
+
+    
+.seccionGoogle--seccionEtiqueta{
+    width: 0px;
+    height: 0px;
+    visibility: collapse;}
+
+
+
+.seccionGoogle--seccionBotones{
+    visibility: visible;
+    padding-top: 14px;
+    display: flex;
+    justify-content: center;}
+
+.linkBotones{
+    text-decoration: none;
+    padding:10px 18px;
+    margin: 0 5px;
+    border-radius: 3px;}
+
+.linkBotones:hover{
+    padding:9px 17px;
+    border: 1px solid var(--colorGrisGoogle);
+    box-shadow: 0 1px var(--colorGrisGoogle);}
+
+
+
+@media(min-width:904px){
+    .seccionLink--contenedores{
+        justify-content:start;}}

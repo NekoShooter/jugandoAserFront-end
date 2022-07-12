@@ -1,0 +1,40 @@
+:root{
+    --widthLupa:20px;}
+
+.contenedor--barraDeNavegacion{
+    background-color: var(--colorFondoNavtablet);}
+
+.seccionGoogle--contenedor__imagen{
+    height: calc(45vh - 152px);
+    min-height: 76px;}
+
+.seccionGoogle--seccionBuscador{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;}
+
+.seccionBuscador--contenedor__barraBuscador{
+    width: 584px;
+    max-width: 584px;
+    height: 46px;
+    border-radius: 46px;
+    border: 1px solid var(--colorGrisGoogle);}
+
+.barraBuscador{
+    width: 96%;}
+
+#buscador{
+    background-color: transparent;
+    border: transparent;}
+
+.spanLupa{
+    order: 0;
+    margin-right: 10px;
+    background-color: transparent;}
+
+.lupa{
+    width: var(--widthLupa);
+    fill: var(--colorLupa);}
+
+.seccionLink--contenedores{
+    justify-content:center;}

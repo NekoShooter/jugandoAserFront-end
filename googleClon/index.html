@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="un clon de la pagina principal de google">
+        <meta name="robots" content="index,unfollow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google</title>
+        <link rel="icon" type="imagen/x-icon" href="./imagenes/G_50x50.png">
+        
+        <link rel="stylesheet" href="./tema.css">
+        <link rel="stylesheet" href="./movil.css">
+        <link rel="stylesheet" href="./tablet.css" media="screen and (min-width: 600px)">
+        <link rel="stylesheet" href="./desktop.css" media="screen and (min-width: 800px)">
+    </head>
+
+    <body>
+
+        <header>
+
+            <nav class="contenedor--barraDeNavegacion">
+                    <ul class="barraDeNavegacion">
+                        <li class="barraDeNavegacion--menu">
+                            <div class="contenedor--menu">
+                                <a href="https://www.google.com.mx/intl/es-419/about/products" class="barraDeNavegacion--enlace__menu">
+                                    <svg class="menu" focusable="false" viewbox="0 0 24 24">
+                                        <line x1="4" y1="6" x2="20" y2="6"></line>
+                                        <line x1="4" y1="12" x2="20" y2="12"></line>
+                                        <line x1="4" y1="18" x2="20" y2="18"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="barraDeNavegacion--todo">
+                            <a href="#" class="barraDeNavegacion--enlace barraDeNavegacion--enlace__todo">
+                                Todos
+                            </a>
+                        </li>
+                        <li class="barraDeNavegacion--Gmail">
+                            <a href="https://mail.google.com/mail/&ogbl" class="barraDeNavegacion--enlace barraDeNavegacion--enlace__Gmail">
+                                Gmail
+                            </a>
+                        </li>
+
+                        <li class="barraDeNavegacion--imagenes">
+                            <a href="https://www.google.com.mx/imghp?hl=es-419&ogbl" class="barraDeNavegacion--enlace barraDeNavegacion--enlace__imagenes">
+                                Im&aacute;genes
+                            </a>
+                        </li>
+                        <li class="barraDeNavegacion--googleApps">
+                            <div class="contenedor--googleApps">
+                                <a href="https://www.google.com.mx/intl/es-419/about/products" class="barraDeNavegacion--enlace__googleApps">
+                                    <svg class="googleApps" focusable="false" viewbox="0 0 24 24">
+                                        <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="barraDeNavegacion--Acceder">
+                            <a href="https://accounts.google.com/ServiceLogin?hl=es-419&passive=true&continue=https://www.google.com.mx/%3Fhl%3Des-419&ec=GAZAmgQ"
+                            class="barraDeNavegacion--enlace barraDeNavegacion--enlace__accederACuenta">
+                                Acceder
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="seccionGoogle">
+                <div class="seccionGoogle--contenedor__imagen">
+                    <picture class="imagen--google">
+                        <source srcset="./imagenes/google_272x92.png" media="(min-width: 800px)">
+                        <source srcset="./imagenes/google_226x76.png" media="(min-width: 600px)">
+                        <img class="google" srcset="./imagenes/google_180x64.png" alt="google">
+                    </picture>
+                </div>
+                <div class="seccionGoogle--seccionBuscador">
+                    <div class="seccionBuscador--contenedor__barraBuscador">
+                        <form class="barraBuscador">
+                            <label for="buscador" class="contenedor--buscador">
+                                <span class="spanLupa">
+                                    <svg class="lupa" focusable="false" viewbox="0 0 24 24">
+                                        <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                                    </svg>
+                                </span>
+                                <input type="search" id="buscador" class="barraBuscador--buscador">                               
+                            </label>
+                        </form>
+                    </div>
+                </div>
+                <div class="seccionGoogle--seccionEtiqueta">
+                    <div class="seccionEtiqueta">
+                        <span class="spanEtiqueta">Ofrecido por Google en:</span>
+                        <a class="linkEtiqueta" href="#"> Espa&ntilde;ol (Latinoam&eacute;rica)</a>
+                    </div>
+                </div>
+                <div class="seccionGoogle--seccionBotones">
+                    <div class="seccionBotones">
+                        <a class="linkBuscarConGoogle linkBotones" href="#">Buscar con Google</a>
+                        <a class="linkMeSientoConSuerte linkBotones" href="#">Me siento con suerte</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <section class="seccionFooter seccionPais">
+                <span class="pais">
+                    M&eacute;xico
+                </span>
+            </section>
+            <section class="seccionFooter seccionLink">
+                <div class="seccionLink--servicios seccionLink--contenedores">
+                    <a class="sobreGoogle textoFooter" href="#">Sobre Google</a>
+                    <a class="pubicidad textoFooter" href="#">Publicidad</a>
+                    <a class="negocios textoFooter" href="#">Negocios</a>
+                    <a class="comoFuncionaLaBusqueda textoFooter" href="#">C&oacute;mo funciona la B&uacute;squeda</a>
+                </div>
+                <div class="seccionLink--politicas seccionLink--contenedores">
+                    <a class="privacidad textoFooter" href="#">Privacidad</a>
+                    <a class="condiciones textoFooter" href="#">Condiciones</a>
+                    <a class="preferencias textoFooter" href="#">Preferencias</a>
+                </div>
+            </section>
+        </footer>
+
+    </body>
+</html>
