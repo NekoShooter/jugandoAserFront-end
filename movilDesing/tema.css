@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;}
+
+html{
+    font-size: 62.5%;
+    font-family: "DM Sans", sans-serif;}
+
+
+:root{
+    --bitcoin-orange: #f7931a;
+    --soft-orange: #ffe9d5;
+    --secondary-blue: #1a9af7;
+    --soft-blue: #e7f5ff;
+    --warm-black: #201E1C;
+    --medium-black:#757575;
+    --black: #201e1c;
+    --grey: #bababa;
+    --off-white: #faf8f7;
+    --just-white: #fff;
+    --background-seccionBitcoin: #f0eeee;}
+
+.contenedor--header{
+    background: linear-gradient(to bottom left ,var(--warm-black) 16%, var(--bitcoin-orange) 100%);
+}
+
+.eslogan{
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    color: var(--just-white);}
+
+.misionBatatabit{
+    font-size: 1.4rem;
+    color:var(--soft-orange);}
+
+.planes a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color:var(--warm-black);}
+
+.planes{
+    background-color: #FAF8F7;
+    font-weight: bold;}
+
+.seccion--planes,
+.seccion--visualizacion{
+    background-color:var(--background-seccionBitcoin);}
+
+.visual__contenedor--mensaje .mensaje{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.4rem;
+    color: var(--warm-black);}
+
+.visual__contenedor--textoInformativo .textoInformativo{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--medium-black);}
+
+.visual__contenedor--tablas .tablas--tabla table{
+    background-color: var(--just-white);
+    color: #B5B0AC;}
+
+.visual__contenedor--tablas .tablas--titulo{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--bitcoin-orange);}
+
+.visual__contenedor--tablas .tablas--tabla .izq{
+    font-size: 1.8rem;}
+.visual__contenedor--tablas .tablas--tabla .der{
+    font-size: 1.4rem;}
+
+.visual__contenedor--tablas .tablas--actualizacion{
+    background-color: #FFE9D5;}
+
+
+.tablas--actualizacion .txt{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--warm-black);}
+
+.tablas--actualizacion .txt .fecha{
+    font-weight: normal;}
+
+
+.seccion--beneficios{
+    background-color:var(--warm-black);}
+
+.seccion--beneficios .titulo{
+    color: var(--just-white);
+    font-size: 2.4rem;
+    line-height: 2.6rem;}
+
+.seccion--beneficios .eslogan{
+    color:#808080;
+    font-size: 1.4rem;
+    line-height: 1.8rem;}
+
+.beneficios__contenedor--listaDeBeneficios .contenedorDeContenido{
+    background-color: #282623;}
+
+.contenedorDeContenido .titulo{
+    color: var(--just-white);
+    font-size: 1.8rem;
+    line-height: 1.8rem;}
+
+.contenedorDeContenido .informacion{
+    color:#808080;
+    font-size: 1.4rem;
+    line-height: 1.8rem;}
+
+
+.planes__contenedor--imagen .titulo{
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--just-white);}
+
+.planes__contenedor--encabezado .encabezado{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--warm-black);}
+
+
+.planes__contenedor--intro .intro{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: #757575;}
+
+.planes__contenedor--slider .slider__contenedor--recomendacion{
+    background-color: var(--bitcoin-orange);}
+
+.slider__contenedor--recomendacion .recomendacion{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--just-white);
+    font-weight: 700;}
+
+.slider__contenedor--sliderDer,
+.slider__contenedor--sliderIzq,
+.slider__contenedor--sliderPrincipal{
+    background-color: var(--just-white);}
+
+.slider__contenedor--encabezado .encabezado{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight:500;
+    color: black;}
+
+.slider__contenedor--precio .precio{
+    font-size: 5.2rem;
+    line-height: 6.2rem;
+    letter-spacing: -5px;
+    font-weight: 700;}
+
+.slider__contenedor--info .info{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight:500;
+    color: #757575;}
+
+.slider__contenedor--pushButton .pushButton{
+    background-color: var(--background-seccionBitcoin);}
+
+.pushButton .llamada{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 700;
+    color: var(--warm-black);}
+
+footer{
+    background-color: var(--bitcoin-orange);}
+
+.seccion--contacto .contacto__contenedor--redesSociales a{
+    color: var(--just-white);
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;}
+
+.seccion--copy .batatabitCopy{
+    color: var(--just-white);
+    font-size: .8rem;
+    line-height: 1.8rem;
+    font-weight: 500;}
