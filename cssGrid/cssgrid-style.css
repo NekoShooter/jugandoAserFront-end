@@ -1,0 +1,112 @@
+body{
+    min-width: 320px;
+    background-color: var(--background);}
+
+.seccion--encabezado,
+.seccion--servicios,
+.seccion--menu{
+    min-width: 300px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;}
+
+
+.encabezado--contenedor__info button,
+.encabezado--contenedor__info h1,
+.encabezado--contenedor__info p{
+    margin: 10px 0;}
+
+.encabezado--contenedor__info button{
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    width: 150px;
+    height: 30px;}
+
+.encabezado--contenedor__info button:active{
+    border-style: none;}
+
+.encabezado--contenedor__info{
+    text-align: center;
+    
+    min-width: 300px;
+    padding: 5%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;}
+
+
+.encabezado--contenedor__img{
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.encabezado--contenedor__img img{
+    min-width: 300px;
+    max-width: 400px;
+    width: 100%;
+    min-height: 300px;}
+
+.seccion--encabezado{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minMax(320px, 1fr));
+    place-content: center;}
+
+
+.seccion--servicios h2,
+.seccion--menu h2{
+    padding: 40px;
+    text-align: center;}
+
+.galeria img,
+.servicio--contenedor__video img{
+    padding: 5%;
+    min-width: 50px;
+    max-width: 500px;
+    width: 100%;
+    height: auto;}
+/*
+.servicios--contenedor__galeria img{
+    transform: scale(1 ,.5);
+    clip-path: inset(25% 0 25% 0);}
+.servicios--contenedor__galeria img:hover{
+    clip-path:none;}*/
+
+
+.servicios--contenedor__galeria,
+.servicio--contenedor__video{
+    margin: auto;}
+
+.seccion--servicios .galeria,
+.servicios--contenedor{
+    display: flex;
+    flex-wrap: wrap;}
+
+.servicios--contenedor__galeria .galeria picture{
+    margin: 0 auto;
+}
+
+
+
+.menu--contenedor__galeria .galeria{
+    position: relative;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    display: flex;}
+.menu--contenedor__galeria .galeria img{
+    min-width: 320px;
+    scroll-snap-align: center;}
+
+:root{ --margen:calc(50% - 160px);/* ((50% - width/2) + espacio) = margen left and rigth*/}
+
+.menu--contenedor__galeria .galeria img:first-child{
+    margin-left: var(--margen);}
+.menu--contenedor__galeria .galeria img:last-child{
+    margin-right: var(--margen);}
+
+
+

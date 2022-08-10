@@ -230,6 +230,7 @@ body{ min-width: var(--minWidth);}
     --margen:calc(calc(50% - 100px));/*50% - width/2 + espacio = margen left and rigth*/
     --reg:calc(100% / calc(200vw / 320px));/*100% * 160px / 320px*/
     --media:calc(var(--reg) - 55px);/* screen/2 - width/2*/
+    --centrado:calc(25vw - 110px);
 }
 .slider__contenedor--recomendacion{
     position: absolute;
@@ -237,9 +238,9 @@ body{ min-width: var(--minWidth);}
     width: 110px;
     height: 30px;
     border-radius: 8px;
-    left: calc(var(--media) + 215px); /**/
-    /*left: calc(calc(calc(50% - calc(15px + 85px)) ) + 70px);*/
-    /*left: calc(calc(var(--margen) + 190px) + 80px); omitido para usar gap: ;*/
+    /*left: calc(var(--media) + 215px);*/
+    left: calc(calc(calc(50% - calc(15px + 85px)) ) + 260px);
+    /*left: calc(calc(var(--centrado) + 190px) + 80px);/* omitido para usar gap: ;*/
     display: flex;
     justify-content: center;
     align-items: center;}

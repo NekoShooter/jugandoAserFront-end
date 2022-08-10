@@ -1,0 +1,13 @@
+.servicios--contenedor__galeria .galeria img{
+    padding: 5%;
+    min-width: 100px;
+    max-width: 500px;}
+
+.seccion--servicios .galeria{
+    display: grid;
+    grid-auto-rows: 50%;
+    grid-template-columns: repeat(auto-fit,minMax(50%,1fr));}
+
+.servicio--contenedor__video img{
+    min-width: 100px;}
+
