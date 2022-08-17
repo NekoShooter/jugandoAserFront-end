@@ -1,0 +1,34 @@
+.volver{
+    text-decoration: none;
+    color:#7e7e7e;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.volver--contenedor{
+    padding: 2.5% 0 0 5%;}
+
+.seccion--imagen{
+    width: 100%;
+    max-width: var(--maxw);
+    height: auto;
+    padding: 2.5% 5% 5% 5%;
+    display: flex;
+    justify-content: center;}
+
+.seccion--imagen img{
+    width: 100%;
+    height: auto;}
+
+.seccion--articulo{
+    padding: 0 10%;
+    padding-bottom: 50px;}
+
+.seccion--articulo h4{font-size: 1.2rem}
+.seccion--articulo h1{ font-size: 2.4rem;}
+.seccion--articulo p{ 
+    font-size: 1.4rem;
+    line-height: 2rem;}
+hr{
+    height: 1px;
+    background-color: var(--colorReleno);}

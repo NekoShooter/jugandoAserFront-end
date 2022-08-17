@@ -1,0 +1,70 @@
+.contenedor--portada{
+    margin: 0 auto;
+    padding: 0 5%;
+    width: 100%;
+    min-width: var(--minw);
+    height: calc(100vh - var(--consth));
+    max-height: var(--minh);
+    /*max-width: var(--minw);*/
+    padding-bottom: 10%;
+    background-image: url("./img/Cover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    place-items: center;}
+
+.portada--h1{
+    text-align: center;
+    color: white;
+    font-size: 3.2rem;
+    letter-spacing: .5rem;}
+
+.portada--boton{
+    align-self: start;
+    padding: 15px;
+    color: black;
+    font-size: 1.8rem;
+    font-weight: bold;
+    background-color: var(--brandColor);
+    border: 1px solid white;
+    text-decoration: none;}
+
+@media(min-width: 480px){
+    .contenedor--portada{
+        /*max-height: var(--sdh);*/
+        max-width: var(--sdw);}}
+
+@media(min-width: 720px){
+    .contenedor--portada{
+        max-height: var(--hdh);
+        max-width: var(--hdw);
+        padding-left: 10%;
+        padding-right: 10%;}
+    .portada--h1{letter-spacing: .75rem;}
+    .portada--boton{align-self: center;}}
+
+@media(min-width:1000px){
+    .contenedor--portada{
+        padding-left: 15%;
+        padding-right: 15%;}
+    .portada--h1{letter-spacing: 1rem;}}
+
+@media(min-width:1150px) {
+    .contenedor--portada{
+        padding-left: 25%;
+        padding-right: 25%;
+        max-height: var(--maxh);
+        max-width: var(--maxw);}
+    }
+
+@media(min-width:1440px){
+    .portada--boton{
+        padding: 30px;
+        font-size: 2.4rem;}
+    .portada--h1{
+        font-size: 4.8rem;
+        letter-spacing: 2rem;}}
+
+

@@ -1,0 +1,84 @@
+.seccion--principal{
+    background-color: var(--colorRelleno);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minMax(auto, 400px));
+    gap: 20px;
+    justify-content: center;
+    place-items: center;
+    padding: 20px 5%;}
+
+.principal--imagen{
+    width: 100%;
+    min-width: var(--minw);
+    max-width: 450px;
+    height: auto;}
+/*
+@media (min-width: 800px){
+    .principal--imagen{width: 300px;}
+}*/
+
+.principal--etiqueta{
+    font-size: 1.6rem;
+    letter-spacing: .2rem;}
+
+.principal--info, .info{
+    width: 100%;
+    max-width: var(--minw);}
+
+.principal--titulo, .titulo{ line-height: 3.6rem;}
+
+.principal--titulo{
+    font-weight: bold;
+    font-size: 1.8rem;}
+
+.principal--descripcion, .descripcion{
+    font-size: 1.4rem;
+    letter-spacing: .1rem;}
+
+.descripcion{ 
+    padding-top: 10px;
+    padding-bottom: 20px;}
+
+.imagen, .info{
+    width: 250px;
+    height: auto;}
+
+.boton{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid var(--brandColor);
+    font-size: 1.2rem;}
+
+.seccion--etiquetaSeparadora{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+.etiqueta--contenido{
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.separador{
+    background-color: var(--colorRelleno);
+    width: 65%;
+    min-width: var(--minw);
+    max-width: var(--maxw);}
+
+.seccion--contenido{
+    margin: 0 auto;
+    width: 80%;
+    min-width: var(--minw);
+    max-width: var(--maxw);
+    display: grid;
+    grid-auto-rows: 350px;
+    grid-template-columns: repeat(auto-fit, 300px);
+    place-content: center;
+    place-items: center;
+    padding-top: 5px;
+    padding-bottom: 50px;}

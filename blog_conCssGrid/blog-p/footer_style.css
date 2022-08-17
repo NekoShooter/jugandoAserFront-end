@@ -1,0 +1,25 @@
+.seccion--footer{
+    width: 100%;
+    height: var(--consth);
+    max-width: var(--maxw);
+    min-width: var(--minw);
+    background-color: var(--brandColor);
+    display: flex;} 
+
+.footer--info{
+    align-self: end;
+    background-color: var(--colorContrastante);
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    width: inherit;
+    height: 75%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.footer--info .info{
+    font-size: 1.8rem;
+    font-family: var(--fuente);
+    color: white;}

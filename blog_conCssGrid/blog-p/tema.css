@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+
+:root{
+    --brandColor: #48cfad;
+    --colorContrastante: #22272d;
+    --colorRelleno:#e6e9ed;
+    --fuente: Helvetica, Arial, sans-serif;
+    --consth: 100px;
+    --contactoh: 200px;
+    --smartw: 360px;
+    --smarth: 640px;
+    --sdw: 680px;
+    --sdh: 480px;
+    --hdw: 1280px;
+    --hdh: 720px;
+    --fhdw: 1920px;
+    --fhdh: 1080px;
+    --qhdw: 1440px;
+    --minw: 280px;
+    --minh:var(--smarth);
+    --maxw:var(--hdw);
+    --maxh:var(--hdh);}
+
+
+html{
+    background-color: var(--colorContrastante);
+    width: 100%;
+    height: 100%;
+    font-size: 62.5%;
+    font-family: var(--fuente);}
+
+body{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;}
+
+main{
+    align-self: center;
+    flex-grow: 1;
+    background-color: white;
+    width: 100vw;
+    max-width: var(--maxw);
+    min-width: var(--minw);}
+
+header, footer, .contacto{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;}
+    
+footer{ align-self: end;}
+
+.include--header, .include--footer, .include--contacto{
+    width: 100%;
+    max-width: var(--maxw);
+    height: var(--consth) ;
+    border: none;}
+
+.include--contacto{
+    height: var(--contactoh);
+    display: flex;
+    flex-wrap: wrap;}
