@@ -239,7 +239,12 @@ body{ min-width: var(--minWidth);}
     height: 30px;
     border-radius: 8px;
     /*left: calc(var(--media) + 215px);*/
+    
     left: calc(calc(calc(50% - calc(15px + 85px)) ) + 260px);
+/*
+    left: 50%;
+    transform: translate(-50%, 0);*/
+
     /*left: calc(calc(var(--centrado) + 190px) + 80px);/* omitido para usar gap: ;*/
     display: flex;
     justify-content: center;
