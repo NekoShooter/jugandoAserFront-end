@@ -9,4 +9,4 @@
   [ir a carpeta](https://github.com/NekoShooter/jugandoAserFront-end/tree/master/googleClon) | GoogleClon
   [ir a carpeta](https://github.com/NekoShooter/jugandoAserFront-end/tree/master/movilDesing) | mobile first
   [ir a carpeta](https://github.com/NekoShooter/jugandoAserFront-end/tree/master/cssGrid) | css grid
-  [ir a carpeta](https://github.com/NekoShooter/jugandoAserFront-end/tree/master/blog_conCssGrid) | blog
+  [ir a carpeta](https://github.com/NekoShooter/jugandoAserFront-end/tree/master/blog_conCssGrid/blog-p) | blog
