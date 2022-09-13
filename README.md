@@ -10,3 +10,5 @@
   [ir a carpeta](https://github.com/NekoShooter/jugandoAserFront-end/tree/master/movilDesing) | mobile first
   [ir a carpeta](https://github.com/NekoShooter/jugandoAserFront-end/tree/master/cssGrid) | css grid
   [ir a carpeta](https://github.com/NekoShooter/jugandoAserFront-end/tree/master/blog_conCssGrid/blog-p) | blog
+  [ir a carpeta](https://github.com/NekoShooter/jugandoAserFront-end/tree/master/juego_conCss) | juego con  animaciones CSS
+  [ir a carpeta](https://github.com/NekoShooter/jugandoAserFront-end/tree/master/web-con-animaciones) | web con animaciones CSS
