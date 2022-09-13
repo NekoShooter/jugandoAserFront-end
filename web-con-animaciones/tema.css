@@ -1,0 +1,37 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;}
+
+:root{
+    --colorFondo:#f3f1f1;
+    --colorBase:#ffd20a;
+    --colorPrincipal:#0077FF;
+    --colorContrastante:#bb7777;
+    --colortxt:rgb(146, 146, 146);
+    --fuente-p:1.4rem;
+    --fuente-m:1.8rem;
+    --fuente-g:2.4rem;
+    --fuente-xg:3.2rem;
+    --separacion-min:5px;
+    --separacion-med:10px;
+    --separacion-max:20px;}
+
+body{background-color: var(--colorFondo);}
+
+.barraNav li a{
+    color: var(--colorContrastante);
+    font-size: var(--fuente-g);
+    text-decoration: none;}
+
+
+.principal--contenedor__titulo{
+    font-size: var(--fuente-xg);}
+
+.principal--contenedor__info p{
+    font-size: var(--fuente-p);
+    color: var(--colortxt);}
