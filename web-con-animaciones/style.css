@@ -225,3 +225,17 @@ footer, .footer--nav li{
     transform: translateY(50%);
     transition: transform 1s;}/*fin footer*/
 
+
+
+.none{display: none;}/*modal*/
+.grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;}
+
+.seccion--modal{
+    z-index: 3;
+    position: absolute;}/* fin modal*/
+

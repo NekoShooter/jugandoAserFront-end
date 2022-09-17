@@ -1,0 +1,77 @@
+.seccion--modal{
+    width: 100%;
+    height: 100%;
+    background-color:#0000007f ;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);}
+
+#btn--cerrar{
+    opacity: 50%;
+    transform: matrix(.8,0,0,.8,0,0);
+    transition: all .5s;}
+
+#btn--cerrar:hover{
+    transform: matrix(1.1,0,0,1.1,0,0);
+    opacity: 100%;
+    transition: all .5s;}
+
+
+
+input{display: none;}
+
+
+.seccion--riel .riel--contenedor{
+    width: 50%;
+    min-width: 600px;
+    height: 50%;
+    min-height: 300px;
+    border-radius: 50px;
+    background-color: var(--colorFondo);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;}
+
+.carta{
+    background-color:var(--colorBase);
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    display: grid;
+    place-content: center;}
+
+.riel--contenedor .carta img{ width: 150px;}
+
+label{ 
+    z-index: 0;
+    position: absolute;
+    opacity: 50%;
+    transition: all .5s;}
+
+:root{
+    --vistaDerecha:perspective(290px) matrix(1,0,0,1,160,0) rotateY(-45deg);
+    --derecha:right center;
+    --vistaIzquierda:perspective(290px) matrix(1,0,0,1,-160,0) rotateY(45deg);
+    --izquierda:left center;}
+
+#co-carta1:checked ~ .riel--contenedor #carta1,
+#co-carta2:checked ~ .riel--contenedor #carta2,
+#co-carta3:checked ~ .riel--contenedor #carta3{
+    z-index: 1;
+    opacity: 1;
+    transition: transform box-shadow .5s;
+    transform: initial;
+    transform-origin: initial;
+    box-shadow: 0 10px 15px -2px #583c3c4f ;}
+
+#co-carta1:checked ~ .riel--contenedor #carta2,
+#co-carta2:checked ~ .riel--contenedor #carta3,
+#co-carta3:checked ~ .riel--contenedor #carta1{
+    transform: var(--vistaIzquierda);
+    transform-origin:var(--izquierda);}
+
+#co-carta1:checked ~ .riel--contenedor #carta3,
+#co-carta2:checked ~ .riel--contenedor #carta1,
+#co-carta3:checked ~ .riel--contenedor #carta2{
+    transform: var(--vistaDerecha);
+    transform-origin: var(--derecha);}

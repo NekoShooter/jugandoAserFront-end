@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="./tema.css">
         <link rel="stylesheet" href="./nav.css">
         <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./modal.css">
         <title>animaciones css</title>
     </head>
     <body>
@@ -63,16 +64,45 @@
             <div></div>
         </div>
 
+        <section class="seccion--modal none">
+            <section class="seccion--riel">
+                <input type="radio" name="riel" id="co-carta1" checked>
+                <input type="radio" name="riel" id="co-carta2">
+                <input type="radio" name="riel" id="co-carta3">
+
+                <div class="riel--contenedor">
+                    <label for="co-carta1" id="carta1">
+                        <div class="carta">
+                        <img src="https://static.platzi.com/media/public/uploads/spider-man_db8af43d-b692-4986-a385-e645d286e142.png" alt="">
+                        </div>
+                    </label>
+                    <label for="co-carta2" id="carta2" >
+                        <div class="carta">
+                            <img src="https://static.platzi.com/media/public/uploads/spider-man-3_19f5c510-8059-4477-abf8-42249a5445b7.png" alt="">
+                        </div>
+                        </label>
+                    <label for="co-carta3" id="carta3">
+                        <div class="carta">
+                            <img src="https://static.platzi.com/media/public/uploads/spider-man-2_b24c96b3-6d59-496f-815d-32b25eba0141.png" alt="">
+                        </div>
+                    </label>
+
+                </div>
+            </section>
+            <div id="btn--cerrar"><img src="./cerrar.png" alt="boton de cerrar"></div>
+        </section>
+
         <footer>
             <section class="contenedor--footer__nav">
                 <ul class="footer--nav">
-                    <li><div><img src="./spiderman.png" alt="muñeco lego"></div></li>
-                    <li><div><img src="./robin.png" alt="muñeco lego"></div></li>
-                    <li><div><img src="./batman.png" alt="muñeco lego"></div></li>
+                    <li><div id="Btn1" class="btn"><img src="./spiderman.png" alt="muñeco lego"></div></li>
+                    <li><div id="Btn2" class="btn"><img src="./robin.png" alt="muñeco lego"></div></li>
+                    <li><div id="Btn3" class="btn"><img src="./batman.png" alt="muñeco lego"></div></li>
                 </ul>
             </section>
         </footer>
 
     </body>
+    <script src="./logica.js"> </script>
 
 </html>
